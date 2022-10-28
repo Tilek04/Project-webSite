@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200&family=Montserrat:wght@100&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000;
+    font-size: 15px;
+    line-height: 1.5;
+}
+a{
+    color: #262626;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.container{
+    display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1fr;
+grid-column-gap: 0px;
+grid-row-gap: 0px;
+padding-bottom: 100px;
+}
+.logo{display: flex;
+    margin-left: 90px;
+}
+.logo__img{
+ padding: 10px 10px 10px 10px;
+ background-color: #ECE8D9;
+ 
+}
+.logo__name{
+    padding-left: 20px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+font-size: 24px;
+line-height: 32px;
+}
+.main__text{
+    margin: 80px 0 0 120px;
+}
+.main-col-text{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+color: #485B60;
+
+}
+.main__h1{
+    color: #102226;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 72px;
+    line-height: 80px;
+    padding-top: 30px;
+}
+.second-pr{
+    font-family: 'Inter', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 15px;
+line-height: 32px;
+color: #102226;
+padding-top: 20px;
+}
+
+.right__col{
+    display: flex;
+    background: #fff;
+    width: 200px;
+    height: 128;
+    padding-top: 20px;
+    position: relative;
+    left: 330px;
+}
+.right__col img{
+    width: 50px;
+    height: 50px;
+}
+.in__col span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 40px;
+}
+.in__col p{
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 32px;
+}
+.left__block{
+    display: flex;
+
+}
+
+.main__image{
+    background: #ECE8D9;
+    height: 600px;
+
+}
+.girl__photo{
+  margin-top: 10px;
+
+}
+.bottom__text{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+}
+.left__col{
+    background: #1C3F3A;
+   position: relative;
+   right: 50px;
+    width: 180px;
+    height: 250px;
+}
+.left__col p{
+    color: white;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+padding-left: 15px;
+position: relative;
+top: -30px;
+}
+.sun{
+    padding-left: 25px;
+}
+
+.first__button{
+    padding: 10px 15px 10px 15px;
+background: rgba(0, 0, 0, 0);
+color: #ECE8D9;
+border: #ECE8D9;
+position: relative;
+top: -10px;
+}
+.logos__col{
+    padding-bottom: 60px;
+  
+}
+.brands__logo{
+    display: flex;
+    justify-content: space-around;
+  
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1150px) {
+    .main__h1{font-size: 60px;
+        line-height: 60px;
+    }
+   
+
+
+
+@media only screen and (max-width: 1000px){
+ 
+.main__image{
+ margin-left: 100px;
+ 
+}
+.girl__photo{
+    margin-left: 40px;
+}
+.main__h1{
+    width: 250px;
+    font-size: 50px;
+    line-height: 50px;
+   
+}
+
+}
+
+}
+
+
+@media only screen and (max-width: 800px){
+    .logos__col{
+        width: 100%;
+    }
+}
