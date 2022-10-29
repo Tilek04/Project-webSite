@@ -374,31 +374,56 @@ color: white;
 }
 
 @media only screen and (max-width: 600px){
-    .logo{
+    .logo{margin: 0;
     
-     
+        padding-left: 10px;
     }
     .logo__name{
-    
+        font-size: 18px;
+     padding-left: 10px;
+      margin-top: -5px;
        
     }
     .logo__img{
-     
+       padding: 0;
+        background: none;
+        width: 35px;
     }
     .main__text{
-  
+    margin-left: 20px;
+    margin-top: 30px;
     }
     .main__h1{
-    
+        font-size: 15px;
+    width: 90px;
+    line-height: 30px;
+ padding-top: 10px;
     }
+    .star{display: none;}
+    .text__uslug{
+        font-weight: 400;
+        line-height: 26px;
+    position: relative;
+   right: 0;
+   left: 20px;
+font-size: 25px;
+
+}
+.container__uslug{display: block;}
+
     .second-pr{
-      
+        font-size: 10px;
+        width: 100px;
+       line-height: 20px ;
+       padding: 0;
     }
     .right__col{
-      
+        position: relative;
+        left: 0;
     }
     .girl__photo{
-        
+        width: 150px;
+       
     }
     .main__image{
         height: 240px;
@@ -407,27 +432,37 @@ color: white;
      margin: 40px 0 0 0;
     }
     .main-col-text{
-     
+        font-size: 10px;
     
     }
     .left__block{
-    
+     display: flex;
      
     }
     .left__col{
-     
+        position: relative;
+        right: 0;
+        top: 40px;
+        left: 0px;
+        height: 240px;
     }
     .container{
-        display: flex;
+        display: block;
         width: 100%;
       
     }
+    .four__cols
 .first__col{
-    margin: 0;
+  margin: 15px 0 0 0;
     padding: 0;
-    width: 100%;
+height: 250px;
+width: 200px;
+display: block;
+border: none;
+
 }
-.mobile__button{
+.bigSun{display: none;}
+/* .mobile__button{
     display: block;
     font-size: 15px;
     margin-left: 30px;
@@ -437,20 +472,41 @@ color: white;
     border-radius: 50px;
     padding: 3px 5px 3px 5px;
     border: none;
-}
+} */
   .left__col{display: none;}
   .line{display: none;}
  .col__calendar{
     margin-left: 0px;
-    width: 350px;
+    width: 70%;
  }
  .price{
     margin-left: 40px;
     width: 300px;
  }
- 
+.our__team h2{
+    font-size: 22px;
+    text-align: start;
 }
+.first-card{
+    display: inline-block;
+    
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 15px;
+   margin: 20px 0 0 0;
+}
+.first-card img{
+    width: 220px;
+    height: 250px;
+    padding: 30px 30px 15px 30px;
 
-@media only screen and (max-width: 400px){
+}
+.first-card p{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto' sans-serif;
+}
 
 }
