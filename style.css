@@ -579,5 +579,13 @@ footer{
     height: 200px;
     margin-bottom: 0;
 }
+.second-pr{
+    font-size: 10px;
+    padding-top: 30px;
+}
+.our__team h2{
+    padding-left: 20px;
+    font-size: 25px;
+}
    
 }
