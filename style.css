@@ -374,43 +374,31 @@ color: white;
 }
 
 @media only screen and (max-width: 600px){
-    .logo{margin: 0;
-        
+    .logo{
+    
+     
     }
     .logo__name{
-        font-size: 8px;
-        padding: 0;
-        margin: 0;
+    
+       
     }
     .logo__img{
-       padding: 0;
-        background: none;
-        width: 25px;
+     
     }
     .main__text{
-    margin-left: 0;
-    margin-top: 30px;
+  
     }
     .main__h1{
-        font-size: 15px;
-    width: 90px;
-    line-height: 30px;
- padding-top: 10px;
+    
     }
     .second-pr{
-        font-size: 10px;
-        width: 100px;
-       line-height: 20px ;
-       padding: 0;
+      
     }
     .right__col{
-        position: relative;
-        left: 0;
+      
     }
     .girl__photo{
-        width: 150px;
-        position: relative;
-        right: 150px;
+        
     }
     .main__image{
         height: 240px;
@@ -419,19 +407,15 @@ color: white;
      margin: 40px 0 0 0;
     }
     .main-col-text{
-        font-size: 10px;
+     
     
     }
     .left__block{
-     display: flex;
+    
      
     }
     .left__col{
-        position: relative;
-        right: 0;
-        top: 40px;
-        left: 0px;
-        height: 240px;
+     
     }
     .container{
         display: flex;
@@ -445,13 +429,13 @@ color: white;
 }
 .mobile__button{
     display: block;
-    font-size: 10px;
-    margin-left: 20px;
+    font-size: 15px;
+    margin-left: 30px;
     margin-top: 8px;
     background: #1C3F3A;
     color: #fff;
     border-radius: 50px;
-    padding: 0 5px 0 5px;
+    padding: 3px 5px 3px 5px;
     border: none;
 }
   .left__col{display: none;}
@@ -465,4 +449,8 @@ color: white;
     width: 300px;
  }
  
+}
+
+@media only screen and (max-width: 400px){
+
 }
