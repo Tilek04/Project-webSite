@@ -52,6 +52,11 @@ font-weight: 400;
 color: #485B60;
 
 }
+
+.mobile__button{
+    display: none;
+}
+
 .main__h1{
     color: #102226;
     font-family: 'Roboto', sans-serif;
@@ -157,6 +162,176 @@ top: -10px;
   
 }
 
+/* First section */
+.first__section{
+    width: 100%;
+    height: 100%;
+}
+.container__uslug{
+    padding-top: 60px;
+    display: flex;
+    justify-content: space-around;
+}
+.text__uslug{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+position: relative;
+top: -30px;
+right: 60px;
+}
+
+.line{padding-top: 50px;}
+.first__col{
+height: 320px;
+border: 1px solid #DDE3E4;
+border-radius: 0px;
+display: inline-block;
+margin-left: 160px;
+margin-bottom: 60px;
+margin-top: 40px;
+}
+
+#fa{
+    color: #9F9B8D;
+    font-size: 40px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.bigSun{
+    padding-left: 305px;
+    display: block;
+}
+.wrapper{
+    padding-top: 20px;
+padding-left: 30px;
+font-family: 'Roboto' sans-serif;
+font-weight: 200;
+font-size: 23px;
+line-height: 32px;
+}
+.wrap-text{
+    padding-top: 20px;
+    font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 32px;
+padding-left: 30px;
+}
+.col__button{
+    padding-top: 20px;
+    border: none;
+    background: rgba(0, 0, 0, 0);
+    padding-left: 30px;
+}
+
+/* Third section */
+.second__section{
+    width: 100%;
+    height: 100%;
+}
+.our__team{
+    height: 100%;
+}
+.our__team h2{
+    text-align: center;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 48px;
+line-height: 56px;
+padding-top: 50px;
+padding-bottom: 40px;
+}
+.first-card{
+    display: inline-block;
+    margin-left: 30px;
+    background: #FFFFFF;
+    border: 2px solid #000000;
+    border-radius: 15px;
+    margin-top: 90px;
+    margin-left: 80px;
+}
+.first-card img{
+    width: 320px;
+    height: 380px;
+    padding: 30px 30px 15px 30px;
+
+}
+.first-card p{
+    text-align: center;
+    padding-bottom: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-family: 'Roboto' sans-serif;
+}
+.calendar{
+    width: 100%;
+    height: 100%;
+}
+
+.col__calendar{
+    background: #eee;
+    width: 600px;
+    height: 600px;
+ margin-top: 70px;
+ margin-left: 350px;
+
+}
+
+.fourth__section{
+    width: 100%;
+    height: 100%;
+}
+
+.price{
+    background: #eee;
+    width: 400px;
+    height: 400px;
+ margin-top: 70px;
+margin-left: 450px;
+}
+
+footer{
+    background: #1C3F3A;
+    width: 100%;
+    height: 150px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer__logo{display: flex; padding-top: 30px;}
+.networks__logo i {
+    color: white;
+    font-size: 30px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+.text__footer{
+    padding-left: 20px;
+    padding-top: 10px;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+font-size: 24px;
+line-height: 32px;
+color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -195,4 +370,99 @@ top: -10px;
     .logos__col{
         width: 100%;
     }
+    .logos__col{display: none;}
+}
+
+@media only screen and (max-width: 600px){
+    .logo{margin: 0;
+        
+    }
+    .logo__name{
+        font-size: 8px;
+        padding: 0;
+        margin: 0;
+    }
+    .logo__img{
+       padding: 0;
+        background: none;
+        width: 25px;
+    }
+    .main__text{
+    margin-left: 0;
+    margin-top: 30px;
+    }
+    .main__h1{
+        font-size: 15px;
+    width: 90px;
+    line-height: 30px;
+ padding-top: 10px;
+    }
+    .second-pr{
+        font-size: 10px;
+        width: 100px;
+       line-height: 20px ;
+       padding: 0;
+    }
+    .right__col{
+        position: relative;
+        left: 0;
+    }
+    .girl__photo{
+        width: 150px;
+        position: relative;
+        right: 150px;
+    }
+    .main__image{
+        height: 240px;
+   background: none;
+    width: 0;
+     margin: 40px 0 0 0;
+    }
+    .main-col-text{
+        font-size: 10px;
+    
+    }
+    .left__block{
+     display: flex;
+     
+    }
+    .left__col{
+        position: relative;
+        right: 0;
+        top: 40px;
+        left: 0px;
+        height: 240px;
+    }
+    .container{
+        display: flex;
+        width: 100%;
+      
+    }
+.first__col{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.mobile__button{
+    display: block;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 8px;
+    background: #1C3F3A;
+    color: #fff;
+    border-radius: 50px;
+    padding: 0 5px 0 5px;
+    border: none;
+}
+  .left__col{display: none;}
+  .line{display: none;}
+ .col__calendar{
+    margin-left: 0px;
+    width: 350px;
+ }
+ .price{
+    margin-left: 40px;
+    width: 300px;
+ }
+ 
 }
